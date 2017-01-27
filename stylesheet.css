@@ -1,0 +1,135 @@
+*{
+    font-family:courier;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#front{
+    width: 100%;
+    height: 90vh;
+    background-image: url("rpsLogo.png");
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100vh;
+    font-size: 3em;
+    display: inline-block;
+    background-size: 100% 90vh;
+}
+#frontBack{
+    background-color: rgba(0,0,0,.8);
+    color: #157991;
+}
+#down{
+    height: 10vh;
+    width: 100%;
+    font-size: 1.5em;
+    vertical-align: middle;
+    line-height: 10vh;
+    text-align: center;
+}
+#sidebar{
+    display: inline-flex;
+    vertical-align: top;
+    font-size: 1.3em;
+    top: 0;
+    background-color: rgba(0,0,0,.8);
+    width: 10%;
+    height: 100vh;
+    color: white;
+    display: inline-block;
+    float: left;
+}
+.pick{
+    float: left;
+    width: 30%;
+    height: 30vh;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+.pick:hover{
+    opacity: .7;
+}
+#pcChoice{
+    width:calc(90% - 2px);
+    height: calc(20vh - 2px);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20vh;
+    border: 1px solid;
+    border-top-color:#44ce47;
+    border-bottom-color:#44ce47;
+    border-right-color: white;
+    border-left-color:white;
+    font-size: 1.7em;
+    color: rgb(0,178,178);
+}
+#alert{
+    border: 1px solid;
+    border-top-color:white;
+    border-bottom-color:#44ce47;
+    border-right-color: white;
+    border-left-color:white;
+    font-size: 1.7em;
+    height: calc(20vh - 2px);
+    width: calc(90% - 2px);
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20vh;
+    color: rgb(199,38,0);
+}
+.console{
+    width: calc(30% - 2px);
+    height: calc(15vh - 2px);
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15vh;
+    float: left;
+    font-size: 1.3em;
+}
+#won{
+    color: rgb(188,0,153);
+}
+#lost{
+    color: rgb(157,0,253);
+}
+#balance{
+    border: 1px solid;
+    border-top-color:white;
+    border-bottom-color:white;
+    border-right-color:#44ce47;
+    border-left-color:#44ce47;
+    color: rgb(0,149,92);
+}
+#hiScore{
+    border: 1px solid;
+    border-top-color:#44ce47;
+    border-bottom-color:white;
+    border-right-color:white;
+    border-left-color:white;
+    width: calc(90% - 2px);
+    height: calc(10vh - 2px);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-size: 1.4em;
+    color: rgb(25,39,255);
+}
+#attribuition{
+    text-align: right;
+    display: inline-block;
+    height: calc(5vh - 2px);
+    width: calc(90% - 2px);
+    vertical-align: middle;
+    line-height: 5vh;
+    border: 1px solid;
+    border-top-color:rgba(0,0,0,.5);
+    border-bottom-color:white;
+    border-right-color:white;
+    border-left-color:white;
+}

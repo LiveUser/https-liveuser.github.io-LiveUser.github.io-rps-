@@ -1,0 +1,9 @@
+*Human redable output instead of returning boolean values
+*Dynamic messeges and color
+*Document updates partially(only the variable values that change are updated)
+*Whole document specified in percentage and em;
+*Transition animations
+*front page with background image
+*images/icons instead of words
+*sidebar for future features
+*game auto restarted now gives the reason why it did it(you ran out of money)
