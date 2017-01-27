@@ -104,7 +104,7 @@ $("#rock").click(function(){
 if(won > hiScore){hiScore=won;$("#hiScore").text("High Score: "+hiScore);}
         else{}
 //hiscore
-    }else{wallet=500;won=0;lost=0;$("#pcChoice").text("Ran out of money");$("#balance").text("Your Current Balance is: $"+wallet);alert("Game auto-restarted");}
+    }else{wallet=500;won=0;lost=0;$("#pcChoice").text("Ran out of money");$("#balance").text("Your Current Balance is: $"+wallet);alert("Game auto-restarted");$("#won").text("Times Won: "+won);$("#lost").text("Times Lost: "+lost);}
     //wallet restart
     });
 //rock end
@@ -151,7 +151,7 @@ $("#paper").click(function(){
 //troubleshoot
 if(won>hiScore){hiScore=won;$("#hiScore").text("High Score: "+hiScore);}
         else{}
-        }else{wallet=500;won=0;lost=0;$("#pcChoice").text("Ran out of money");$("#balance").text("Your Current Balance is: $"+wallet);alert("Game auto-restarted");}
+        }else{wallet=500;won=0;lost=0;$("#pcChoice").text("Ran out of money");$("#balance").text("Your Current Balance is: $"+wallet);alert("Game auto-restarted");$("#won").text("Times Won: "+won);$("#lost").text("Times Lost: "+lost);}
     //wallet restart
     });
 //paper end
@@ -196,9 +196,9 @@ $("#scissors").click(function(){
 //end of tie
     else{alert("oops something wrong happened");}
 //troubleshoot
-if(won>hiScore){hiScore=won;$("#hiScore").text("High Score: "+hiScore);}
+if(won>hiScore){hiScore=won;$("#hiScore").text("High Score: "+hiScore);$("#lost").text("Times Lost: "+lost);}
         else{}
-    }else{wallet=500;won=0;lost=0;$("#pcChoice").text("Ran out of money");$("#balance").text("Your Current Balance is: $"+wallet);alert("Game auto-restarted");}
+    }else{wallet=500;won=0;lost=0;$("#pcChoice").text("Ran out of money");$("#balance").text("Your Current Balance is: $"+wallet);alert("Game auto-restarted");$("#won").text("Times Won: "+won);$("#lost").text("Times Lost: "+lost);}
     //wallet restart
     });
 //scissors end
